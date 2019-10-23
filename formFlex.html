@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Flexbox</title>
+	<link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+	<style type="text/css">
+		.form{
+			background-color: #f2f2f2;
+			display: flex;
+			flex-direction: column;
+			padding: 16px;
+			border-radius: 0px 0px 10px 10px;
+			/*box-shadow: -2px 1px 13px 1px;*/
+			box-shadow: -5px 6px 15px 0px;
+		
+		}
+
+		.fields {
+			padding: 10px;
+			margin: 16px 10px;
+			font-size: 12px;
+			border-radius: 10px;
+		}
+
+		input[type=text]:focus {
+			border-radius: 0;
+		}
+
+		text-area {
+			border-radius: 0;
+		}
+
+		.contains-form {
+			display: block;
+			margin: auto;
+			width: 50%;
+		}
+		.header{
+			/*font-family: 'Work Sans', sans-serif;*/
+			text-align: center;
+			background: #ffb347;  /* fallback for old browsers */
+			background: -webkit-linear-gradient(to right, #ffcc33, #ffb347);  /* Chrome 10-25, Safari 5.1-6 */
+			background: linear-gradient(to right, #ffcc33, #ffb347); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+			border-radius: 10px 10px 0px 0px;
+			flex-basis: 80px;
+			color: black;
+			/*box-shadow: -2px 1px 13px 1px;*/
+			box-shadow: -6px 11px 13px -2px;
+		
+		}
+		.header h2 {
+			padding: 16px;
+			margin-bottom: 0px;
+		}
+
+		.select-iam {
+			height: 45px;
+			font-size: 14px;
+		}
+
+		label {
+			font-weight: 600;
+		}
+
+		.submit {
+			height: 45px;
+			margin: 16px 10px;
+			-moz-box-shadow:    3px 3px 5px 6px #ccc;
+  		-webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  		box-shadow:         2px 3px 5px 1px #ccc;
+  		background: #00c6ff;  /* fallback for old browsers */
+			background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+			background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+			border-radius: 15px;
+			color: white;
+			text-transform: uppercase;
+			font-size: 20px;
+			font-family: Times;
+
+		}
+
+	</style>
+
+</head>
+
+<body>
+
+	<div class="contains-form">
+		<div class='header'>
+			<h2>Form Flex</h2>
+		</div>
+		<div class="form">
+			<em><span style="color: red;">*</span> Indicates required fields </em>
+			<br>
+			<hr>
+			<label><span style="color: red;">*</span> First Name </label>
+			<input type="text" class='fields' name="first-name" placeholder="Bobby">
+			<label><span style="color: red;">*</span> Last Name:</label>
+			<input type="text" class='fields' name="last-name" placeholder="Hill">
+			<label>Who are you?</label>
+			<select class='select-iam fields'>
+				<option>Parent</option>
+				<option>Sibling</option>
+				<option>Explorer</option>
+				<option>Surfer</option>
+			</select>
+			<label style="display: none;">Why are you on this site?</label>
+			<input style='display: none;'class='fields' type="text" name="extra-field">
+			<label>What do you like to do?</label>
+			<textarea rows='5' class='fields' style="resize: none;"></textarea>
+			<button class='submit'disabled>Submit</button>
+		</div>
+	</div>
+
+</body>
+</html>
