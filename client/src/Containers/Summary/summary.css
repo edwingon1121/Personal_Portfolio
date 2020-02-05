@@ -1,0 +1,109 @@
+body {
+    background-color: black;
+}
+#summary {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: #ca7385;
+    color: white;
+    padding: 2% 16px 5% 16px;
+}
+
+#summary h2 {
+    margin-bottom: 0px;
+    font-size: 96px;
+    text-align: center;
+    font-weight: 500;
+}
+#summary h3 {
+    margin-top: 8px;
+    margin-bottom: 0px;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.logo-social {
+    width: 31px;
+    height: 31px;
+    margin-right: 8px;
+}
+
+.contains-profiles {
+    display: flex;
+    margin: 16px 0;
+}
+
+.link-button {
+    display: flex;
+    margin: 8px 12px;
+    font-size:24px;
+    align-items: center;
+    
+    color: white;
+}
+
+a.link-button{
+    /* text-decoration-line: none; */
+}
+
+a.link-button:hover {
+    text-decoration-line: underline;
+    /* color: blueviolet; */
+    color:rgba(255, 255, 255, 0.5);
+    /* opacity: 0.8; */
+}
+
+/* .technologies li:nth-of-type(1) {
+    list-style-type: none;
+} */
+
+.introduction{
+    display: flex;
+    justify-content: center;
+}
+
+.profile-pic {
+    align-self: center;
+    box-shadow: 7px 10px 14px 5px rgba(0,0,0,0.8);
+    border-radius: 50%;
+}
+.profile-pic img {
+    border-radius: 50%;
+    height: 400px;
+    align-self: center;
+}
+.caption {
+    width: 50%;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 39px;
+    margin: 5%;
+}
+.caption h5 {
+    font-size: 27px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+}
+
+.fun-fact {
+    display: block;
+    margin-top: 24px;
+}
+
+@media (max-width:768px){
+    #summary h2 {
+        font-size: 72px;
+    }
+    .introduction {
+        flex-direction: column;
+        align-items: center;
+        margin: 5%;
+    }
+    .caption {
+        margin:5%;
+        width: 100%;
+    }
+}

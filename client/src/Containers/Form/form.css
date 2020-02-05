@@ -1,0 +1,255 @@
+#contact {
+  width: 100%;
+  background-color: orange;
+  padding: 5% 0 5% 0;
+}
+.form{
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  border-radius: 0px 0px 10px 10px;
+  /*box-shadow: -2px 1px 13px 1px;*/
+  box-shadow: -5px 6px 15px 0px;
+}
+
+.fields {
+  padding: 10px;
+  margin: 16px 10px;
+  font-size: 12px;
+  border-radius: 10px;
+  outline:none;
+}
+
+
+.fields:focus{
+	border: #ffb347 solid 2px;
+}
+
+
+textarea {
+  border-radius: 0;
+  resize: none;
+  border: 2px inset rgb(238,238,238);
+}
+
+/* .submit:focus {
+  outline: none;
+  border: #ffb347 3px solid;
+} */
+
+.contains-form {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+.header{
+  /*font-family: 'Work Sans', sans-serif;*/
+  text-align: center;
+  background: #ffb347;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffcc33, #ffb347);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffcc33, #ffb347); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 10px 10px 0px 0px;
+  flex-basis: 80px;
+  color: black;
+  /*box-shadow: -2px 1px 13px 1px;*/
+  box-shadow: -6px 11px 13px -2px;
+
+}
+.header h2 {
+  font-size: 42px;
+  padding: 16px;
+  margin-bottom: 0px;
+}
+
+.select-iam {
+  height: 45px;
+  font-size: 14px;
+}
+
+label {
+  font-weight: 600;
+}
+
+.required-span {
+  color: red;
+}
+.submit {
+  background: #00c6ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.reset {
+  background: #A41696;
+  background: -moz-linear-gradient(left, #A41696 0%, #CB2173 61%, #750505 100%);
+  background: -webkit-linear-gradient(left, #A41696 0%, #CB2173 61%, #750505 100%);
+  background: linear-gradient(to right, #A41696 0%, #CB2173 61%, #750505 100%);
+}
+
+.submit:hover, .reset:hover {
+  color: black;
+  opacity: 0.8;
+}
+
+.submit:focus , .reset:focus {
+  
+  outline: none;
+  border: #ffb347 solid 3px;
+}
+
+.button-form {
+  cursor: pointer;
+  width: 47%;
+  height: 45px;
+  margin: 16px 10px;
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         2px 3px 5px 1px #ccc;
+  border-radius: 15px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: Times;
+}
+.buttons-contain {
+  display: flex;
+}
+.name-fields {
+  display: flex;
+}
+
+.input-element {
+  display: flex;
+  flex-direction: column;
+  flex-grow:1;
+}
+
+.contains-animation{
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.animation-contains div {
+  margin: 0px !important;
+}
+
+@media (max-width: 768px){
+  .contains-form {
+    width: 80%;
+  }
+
+  .button-form{
+    width: 46%;
+  }
+}
+
+/* .form-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.visitor-form {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: grey;
+  border-radius: 8px;
+  padding:12px;
+}
+.header-form{
+  color: #FFCC00;
+}
+label {
+  color: #FFCC00;
+  font-weight: bold;
+  margin-left: 4px;
+  margin-bottom: 8px;
+  font-size: 18px;
+} */
+
+/* input, select, textarea {
+  width: 50%;
+} */
+
+/* input {
+  height: 24px;
+  border-radius: 5px;
+  width: 95%;
+  font-size: 14px;
+  padding-left: 8px;
+  margin-bottom: 8px;
+}
+
+.input-contain {
+  display:flex;
+  width:100%;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.input-name{
+  height: 24px;
+  
+} */
+
+/* .input-name:focus{
+}
+
+.input-email {
+
+}
+
+select {
+  margin-bottom: 8px;
+}
+.select-contain {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.select-type{
+  width: 97%;
+  height: 32px;
+  font-size: 14px;
+}
+
+.textarea-contain {
+  display:flex;
+  width:100%;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.textarea-message{
+  width: 96%;
+  height:5em;
+  margin-bottom: 16px;
+}
+
+.buttons-contain {
+  width:100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.button-submit {
+  width: 25%;
+  height: 2em;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.button-reset {
+  width: 25%;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+} */

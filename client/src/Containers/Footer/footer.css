@@ -1,0 +1,36 @@
+#footer {
+  color: #ababb7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5% 0 0 0;
+}
+
+.sections {
+  display: flex;
+  margin: 16px;
+}
+dt {
+  font-weight: bold;
+}
+dt a{
+  color: #dedee4;
+  text-decoration-line: none;
+}
+dt a:hover {
+  color: white;
+  cursor: pointer;
+  text-decoration-line: underline;
+}
+
+.built-with {
+  display: flex;
+}
+dd {
+  margin-left: 0px;
+  margin-bottom: 16px;
+}
+
+.copyright-statement {
+  margin-bottom: 8px;
+}

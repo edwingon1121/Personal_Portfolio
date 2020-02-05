@@ -1,0 +1,129 @@
+#projects {
+    background-color: #ffffff;
+    /* height: 500px; */
+    width: 100%;
+    /* padding: 2%; */
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5% 0;
+}
+
+.project {
+    display:relative;
+    margin: 2%;
+    padding:8px;
+    background-color: #fafafa;
+    width: 42%;
+    text-align: center;
+    -webkit-box-shadow: 0px 15px 38px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 15px 38px -9px rgba(0,0,0,0.75);
+    box-shadow: 0px 15px 38px -9px rgba(0,0,0,0.75);
+}
+.contains-icons{
+    position: absolute;
+    text-align: center;
+    background-color: rgba(0,0,0,0.75);
+    width: 404px;
+    height: 325px;
+    transform: translate(25%, -100%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.project:hover {
+    transform: scale(1.05, 1.05);
+}
+
+.project h4{
+    font-size: 41px;
+}
+.project h5 {
+    font-size: 21px;
+    padding: 0px 16px;
+}
+
+.project-image {
+    width: 38vh;
+    height: 35vh;
+    opacity: 1;
+}
+
+.technologies{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+    padding-left: 0;
+}
+
+.technologies li {
+    display:inline-block;
+    font-weight: 300;
+    margin-right: 8px;
+    font-size: 24px;
+    color: #FFCC00;
+}
+.technologies li img {
+    height: 45px;
+    width: 45px;
+}
+
+.technologies li:not(:nth-child(3))::after{
+    content: "\25AA";
+    margin-left: 4px;
+    color: white;
+}
+
+.image-project {
+    position: relative;
+}
+
+.hover-icon{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    transition: .5s ease;
+    background-color:rgba(0,0,0,0.9);
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    width: 38vh;
+    height: 35vh;
+    transition: .5s ease;
+    transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.hover-icon a.link-button img {
+    width: 64px;
+    height: 64px;
+}
+    
+.image-project:hover .project-image{
+    opacity: 0.3;
+}
+    
+.image-project:hover .hover-icon{
+    opacity: 1;
+    background-color:rgba(0,0,0,0.9);
+}
+
+@media (max-width:768px){
+    .project-image {
+        width: 30vh;
+        height: 30vh;
+    }
+
+    .hover-icon{
+        width: 30vh;
+        height: 30vh;
+    }
+    
+    .project {
+        width: 80%;
+        margin: 5%;
+    }
+}
