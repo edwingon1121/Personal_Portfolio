@@ -112,8 +112,7 @@ class Form extends Component {
   }
 
   render(){
-    console.log('loading: ', this.state.load.loading);
-    console.log('failed: ', this.state.load.failed );
+  
     return(
       <div id="contact">
       <div className="contains-form">

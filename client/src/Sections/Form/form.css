@@ -1,6 +1,6 @@
 #contact {
   width: 100%;
-  background-color: orange;
+  background-color: #ca7385;
   padding: 5% 0 5% 0;
 }
 .form{
@@ -52,7 +52,6 @@ textarea {
   border-radius: 10px 10px 0px 0px;
   flex-basis: 80px;
   color: black;
-  /*box-shadow: -2px 1px 13px 1px;*/
   box-shadow: -6px 11px 13px -2px;
 
 }
@@ -116,6 +115,7 @@ label {
 }
 .name-fields {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .input-element {
@@ -145,111 +145,3 @@ label {
     width: 46%;
   }
 }
-
-/* .form-container {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.visitor-form {
-  width: 40%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background-color: grey;
-  border-radius: 8px;
-  padding:12px;
-}
-.header-form{
-  color: #FFCC00;
-}
-label {
-  color: #FFCC00;
-  font-weight: bold;
-  margin-left: 4px;
-  margin-bottom: 8px;
-  font-size: 18px;
-} */
-
-/* input, select, textarea {
-  width: 50%;
-} */
-
-/* input {
-  height: 24px;
-  border-radius: 5px;
-  width: 95%;
-  font-size: 14px;
-  padding-left: 8px;
-  margin-bottom: 8px;
-}
-
-.input-contain {
-  display:flex;
-  width:100%;
-  align-items: flex-start;
-  flex-direction: column;
-}
-
-.input-name{
-  height: 24px;
-  
-} */
-
-/* .input-name:focus{
-}
-
-.input-email {
-
-}
-
-select {
-  margin-bottom: 8px;
-}
-.select-contain {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  width: 100%;
-}
-
-.select-type{
-  width: 97%;
-  height: 32px;
-  font-size: 14px;
-}
-
-.textarea-contain {
-  display:flex;
-  width:100%;
-  align-items: flex-start;
-  flex-direction: column;
-}
-
-.textarea-message{
-  width: 96%;
-  height:5em;
-  margin-bottom: 16px;
-}
-
-.buttons-contain {
-  width:100%;
-  display: flex;
-  justify-content: space-evenly;
-}
-.button-submit {
-  width: 25%;
-  height: 2em;
-  font-size: 16px;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.button-reset {
-  width: 25%;
-  font-size: 16px;
-  text-transform: uppercase;
-  font-weight: bold;
-} */

@@ -44,20 +44,12 @@ body {
     color: white;
 }
 
-a.link-button{
-    /* text-decoration-line: none; */
-}
-
 a.link-button:hover {
     text-decoration-line: underline;
     /* color: blueviolet; */
     color:rgba(255, 255, 255, 0.5);
     /* opacity: 0.8; */
 }
-
-/* .technologies li:nth-of-type(1) {
-    list-style-type: none;
-} */
 
 .introduction{
     display: flex;
@@ -102,8 +94,12 @@ a.link-button:hover {
         align-items: center;
         margin: 5%;
     }
+    #summary h3 {
+        font-size: 32px;;
+    }
     .caption {
         margin:5%;
         width: 100%;
     }
+    
 }

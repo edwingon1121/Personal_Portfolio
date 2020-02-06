@@ -45,8 +45,8 @@
 }
 
 .project-image {
-    width: 38vh;
-    height: 35vh;
+    width: 30vh;
+    height: 32vh;
     opacity: 1;
 }
 
@@ -89,8 +89,8 @@
     opacity: 0;
     top: 50%;
     left: 50%;
-    width: 38vh;
-    height: 35vh;
+    width: 30vh;
+    height: 32vh;
     transition: .5s ease;
     transform: translate(-50%, -50%);
      -ms-transform: translate(-50%, -50%);

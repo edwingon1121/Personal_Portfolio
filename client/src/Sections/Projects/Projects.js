@@ -1,6 +1,6 @@
 import React from 'react';
 import './projects.css';
-import ProjContainer from './ProjContainer';
+import ProjContainer from '../../Containers/ProjContainer';
 
 const projects = [
     { src: 'https://d1bx69z06fa2ip.cloudfront.net/because_the_internet.jpg', alt: "Childish Gambino Because the Internet", 

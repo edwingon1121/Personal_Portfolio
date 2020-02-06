@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import git from '../../images/icons/GitHub.png';
-import LinkButton from '../../Components/LinkButton';
+import LinkButton from './LinkButton';
 
 class  ProjContainer extends Component{
   constructor(props) {
@@ -15,7 +14,6 @@ class  ProjContainer extends Component{
   hideOptions = () => this.setState({show:false})
 
   render(){
-    console.log(this.props.imgLinks)
     return (
       <div className='project'>
         <h4>{this.props.title}</h4>

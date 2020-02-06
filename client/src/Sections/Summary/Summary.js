@@ -1,9 +1,7 @@
 import React from 'react';
-import LinkButton from '../../Components/LinkButton';
+import LinkButton from '../../Containers/LinkButton';
 import Intro from './Intro';
 import './summary.css';
-import github from '../../images/icons/GitHub.png';
-import linkedin from '../../images/icons/linkedin.png';
 
 const Summary = () => {
     return (

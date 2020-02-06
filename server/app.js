@@ -21,5 +21,5 @@ app.use(bodyParser.urlencoded({extended: false}));
 
 
 app.listen(process.env.PORT || 5000, ()=> {
-  console.log('Server is up and listening on 3003...')
+  console.log('Server is up and listening...')
 });

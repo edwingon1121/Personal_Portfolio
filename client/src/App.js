@@ -1,10 +1,10 @@
 import React from 'react';
-import NavBar from './Containers/NavBar/NavBar';
-import Summary from './Containers/Summary/Summary';
-import Projects from './Containers/Projects/Projects';
-import Download from './Containers/Download/Download';
-import Form from './Containers/Form/Form';
-import Footer from './Containers/Footer/Footer';
+import NavBar from './Sections/NavBar/NavBar';
+import Summary from './Sections/Summary/Summary';
+import Projects from './Sections/Projects/Projects';
+import Download from './Sections/Download/Download';
+import Form from './Sections/Form/Form';
+import Footer from './Sections/Footer/Footer';
 
 
 function App() {

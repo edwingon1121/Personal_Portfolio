@@ -59,6 +59,10 @@ nav {
         display: flex;
     }
 
+    .nav-contents li:nth-child(n+2){
+        display: none;
+    }
+
     .nav-contents ul {
         flex-direction: column;
     }

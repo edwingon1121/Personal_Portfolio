@@ -1,5 +1,4 @@
 import React from 'react';
-import LinkButton from '../../Components/LinkButton';
 import './footer.css';
 
 const Footer = (props) => {
@@ -17,6 +16,7 @@ const Footer = (props) => {
           <dd>Send me a message</dd>
         </dl>
       </div>
+      <div className='attribute-icons'><small>Icons made by Freepik from www.flaticon.com</small></div>
       <div className="copyright-statement">
         <small>Copyright © 2020 <b>Edwin Gonzalez.</b> All Rights Reserved.</small>
       </div>
