@@ -7,19 +7,20 @@ body {
     align-items:center;
     background-color: #ca7385;
     color: white;
-    padding: 2% 16px 5% 16px;
+    padding: 2% 16px 4% 16px;
+    font-family: 'PT Sans', sans-serif;
 }
 
-#summary h2 {
+#summary h1 {
     margin-bottom: 0px;
-    font-size: 96px;
+    font-size: 92px;
     text-align: center;
     font-weight: 500;
+    margin-top: 2%;
 }
-#summary h3 {
-    margin-top: 8px;
-    margin-bottom: 0px;
-    font-size: 50px;
+#summary h2 {
+    margin: 0px;
+    font-size: 56px;
     font-weight: 400;
     text-align: center;
 }
@@ -32,13 +33,13 @@ body {
 
 .contains-profiles {
     display: flex;
-    margin: 16px 0;
+    margin: 4px 0;
 }
 
 .link-button {
     display: flex;
     margin: 8px 12px;
-    font-size:24px;
+    font-size:32px;
     align-items: center;
     
     color: white;
@@ -58,20 +59,20 @@ a.link-button:hover {
 
 .profile-pic {
     align-self: center;
-    box-shadow: 7px 10px 14px 5px rgba(0,0,0,0.8);
-    border-radius: 50%;
+    box-shadow: 3px 7px 11px 2px rgba(0,0,0,0.8);
+    border-radius: 13%;
 }
 .profile-pic img {
-    border-radius: 50%;
-    height: 400px;
+    height: 300px;
     align-self: center;
+    border-radius: 10%;
 }
 .caption {
     width: 50%;
     font-size: 24px;
     font-weight: 400;
     line-height: 39px;
-    margin: 5%;
+    margin: 0 4%;
 }
 .caption h5 {
     font-size: 27px;
@@ -86,20 +87,26 @@ a.link-button:hover {
 }
 
 @media (max-width:768px){
-    #summary h2 {
-        font-size: 72px;
+    #summary h1 {
+        font-size: 49px;
     }
     .introduction {
         flex-direction: column;
         align-items: center;
         margin: 5%;
     }
-    #summary h3 {
+    #summary h2 {
         font-size: 32px;;
     }
     .caption {
         margin:5%;
-        width: 100%;
+        width: 90%;
+    }
+    .contains-profiles {
+        margin: 8px 0px 0px 0px;
+    }
+    .link-button {
+        font-size: 22px;
     }
     
 }

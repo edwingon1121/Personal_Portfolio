@@ -57,6 +57,7 @@ nav {
 @media (max-width: 768px){
     .nav-contents{
         display: flex;
+        transition: all ease 2s;
     }
     .toggle-open{
         display: block;

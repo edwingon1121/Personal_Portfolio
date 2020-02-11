@@ -16,7 +16,7 @@ const NavBar = () => {
 
     const displaySections = show ? 'toggle-display': 'toggle-none';
     const showIcon  = show ? 'menu-close': 'menu-toggle';
-    const sections = [{name: 'home', content: <img src={'https://d1bx69z06fa2ip.cloudfront.net/eg-logo.png'} alt='logo' className='logo'/>},{name: "summary", content: "Summary"}, {name: "projects",content: "Projects"}, {name: "download",content: "Download"}, {name: "contact",content: "Contact"}];
+    const sections = [{name: '', content: <img src={'https://d1bx69z06fa2ip.cloudfront.net/eg-logo.png'} alt='logo' className='logo'/>},{name: "summary", content: "Summary"}, {name: "projects",content: "Projects"}, {name: "download",content: "Download"}, {name: "contact",content: "Contact"}];
 
     return <nav className='navbar'>
         <div className={`nav-contents ${displaySections}`}>

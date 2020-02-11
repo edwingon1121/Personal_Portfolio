@@ -1,11 +1,12 @@
 import React from 'react';
+import profile from '../../Edwin.jpg';
 
 
 const Intro = (props) => {
   return(
     <div className='introduction'>
       <div className='profile-pic'>
-        <img src={'https://d1bx69z06fa2ip.cloudfront.net/profile.jpg'} alt={'Edwin playing conquest after winning the Rose bowl'}/>
+        <img src={profile} alt={'Edwin playing conquest after winning the Rose bowl'}/>
       </div>
       <div className="caption">
         <h5>Hello, I'm Edwin Gonzalez! I am a Full Stack Developer with a background in mathematics. I have created websites, automated scripts, a Chrome extension, and even a data visualization tool. 

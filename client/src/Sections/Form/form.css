@@ -2,6 +2,7 @@
   width: 100%;
   background-color: #ca7385;
   padding: 5% 0 5% 0;
+  font-family: 'PT Sans', sans-serif;
 }
 .form{
   background-color: #f2f2f2;
@@ -58,6 +59,7 @@ textarea {
 .header h2 {
   font-size: 42px;
   padding: 16px;
+  margin-top: 0px;
   margin-bottom: 0px;
 }
 
@@ -73,21 +75,16 @@ label {
 .required-span {
   color: red;
 }
-.submit {
-  background: #00c6ff;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-.reset {
-  background: #A41696;
-  background: -moz-linear-gradient(left, #A41696 0%, #CB2173 61%, #750505 100%);
-  background: -webkit-linear-gradient(left, #A41696 0%, #CB2173 61%, #750505 100%);
-  background: linear-gradient(to right, #A41696 0%, #CB2173 61%, #750505 100%);
-}
+
 
 .submit:hover, .reset:hover {
-  color: black;
-  opacity: 0.8;
+  border-color: #fff;
+    transition: 100ms color cubic-bezier(0.4, 0, 0.6, 1);
+    box-shadow: inset 0 0 0 3px #fff;
+    color: #fff;
+    opacity: 1;
+    cursor: pointer;
+  
 }
 
 .submit:focus , .reset:focus {
@@ -97,21 +94,20 @@ label {
 }
 
 .button-form {
-  cursor: pointer;
-  width: 47%;
-  height: 45px;
-  margin: 16px 10px;
-  -moz-box-shadow:    3px 3px 5px 6px #ccc;
-  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
-  box-shadow:         2px 3px 5px 1px #ccc;
-  border-radius: 15px;
-  color: white;
-  text-transform: uppercase;
-  font-size: 20px;
-  font-family: Times;
+  border-radius: 38px;
+    width: 45%;
+    padding: 10px 2px;
+    box-shadow: inset 0 0 0 2px #888;
+    color: #888888;
+    background-color: #000000;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
 }
 .buttons-contain {
   display: flex;
+  justify-content: space-around;
 }
 .name-fields {
   display: flex;
@@ -143,5 +139,9 @@ label {
 
   .button-form{
     width: 46%;
+  }
+
+  .header h2 {
+    font-size: 32px;
   }
 }

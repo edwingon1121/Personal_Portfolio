@@ -8,6 +8,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     padding: 5% 0;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .project {
@@ -45,7 +46,7 @@
 }
 
 .project-image {
-    width: 30vh;
+    width: 20vw;
     height: 32vh;
     opacity: 1;
 }
@@ -89,7 +90,7 @@
     opacity: 0;
     top: 50%;
     left: 50%;
-    width: 30vh;
+    width: 20vw;
     height: 32vh;
     transition: .5s ease;
     transform: translate(-50%, -50%);
