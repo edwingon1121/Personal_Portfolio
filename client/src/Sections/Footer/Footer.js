@@ -7,7 +7,7 @@ const Footer = (props) => {
       <div className="sections">
         <dl>
           <dt><a href='#summary'>Summary</a></dt>
-          <dd>Glance about me and my experince</dd>
+          <dd>Glance about me and my experience</dd>
           <dt><a href="#projects">Projects</a></dt>
           <dd>Personal projects I am working on and have deployed</dd>
           <dt><a href="#download">Download</a></dt>
@@ -20,7 +20,7 @@ const Footer = (props) => {
       <div className="copyright-statement">
         <small>Copyright © 2020 <b>Edwin Gonzalez.</b> All Rights Reserved.</small>
       </div>
-      
+
     </div>
   )
 }

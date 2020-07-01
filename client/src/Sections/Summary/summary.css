@@ -59,13 +59,13 @@ a.link-button:hover {
 
 .profile-pic {
     align-self: center;
-    box-shadow: 3px 7px 11px 2px rgba(0,0,0,0.8);
     border-radius: 13%;
 }
 .profile-pic img {
     height: 300px;
     align-self: center;
     border-radius: 10%;
+    box-shadow: 3px 7px 11px 2px rgba(0,0,0,0.8);
 }
 .caption {
     width: 50%;
@@ -109,4 +109,29 @@ a.link-button:hover {
         font-size: 22px;
     }
     
+}
+
+#background-circles{
+    height: 15vh;
+    background-color: white;
+    width: 15vh;
+    margin-bottom: 16px;
+}
+#outer-circle {
+    position: relative;
+    width: 98%;
+    height: 100%;
+    background-color: lightblue;
+    border: 5px solid black;
+    border-radius: 50%;
+}
+#inner-circle {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    background-color: lightblue;
+    border: 5px solid black;
+    border-radius: 50%;
+    transform-origin: center;
+    translate: 50%;
 }
