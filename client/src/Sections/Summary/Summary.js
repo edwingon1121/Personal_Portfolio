@@ -11,26 +11,26 @@ const Summary = () => {
     return (
         <div id="summary">
             <div className="background-terminal">
-                <div class="terminal-display">
-                    <div class="prompt">edwin@edwingon.com <span>$</span> </div>
-                    <div class="txt-input">ls</div>
-                    <div class="square"></div>
+                <div className="terminal-display">
+                    <div className="prompt">edwin@edwingon.com <span>$</span> </div>
+                    <div className="txt-input">ls</div>
+                    <div className="square"></div>
                 </div>
-                <div class="output">
-                    <div class="output"><div class="output-row">
-                        <span class="file">Applications</span>
-                        <span class="directory">Projects</span>
-                        <span class="directory">Testing</span>
-                        <span class="directory">Security</span>
-                        <span class="file">Web</span>
-                        <span class="directory">Containers</span>
+                <div className="output">
+                    <div className="output"><div className="output-row">
+                        <span className="file">Applications</span>
+                        <span className="directory">Projects</span>
+                        <span className="directory">Testing</span>
+                        <span className="directory">Security</span>
+                        <span className="file">Web</span>
+                        <span className="directory">Containers</span>
                     </div>
-                        <div class="output-row"><span class="file">Automation</span><span class="directory">Curiosity</span><span class="directory">Travel</span><span class="directory">Adventure</span><span class="directory">Frontend</span><span class="directory">Backend</span></div><div class="output-row"><span class="file">API</span><span class="directory">Teamwork</span><span class="file">Cloud</span><span class="file">Javascript</span><span class="file">Python</span><span class="directory">IDE</span></div><div class="output-row"><span class="file">Relational</span><span class="file">NoSQL</span><span class="file">Learning</span><span class="directory">Always</span><span class="file">Frameworks</span><span class="directory">Music</span></div><div class="output-row"><span class="file">Photography</span><span class="directory">Cars</span><span class="file">Future</span><span class="directory">laboris</span><span class="file">commodo</span><span class="directory">consequat</span></div><div class="output-row"><span class="file">Duis</span><span class="file">aute</span><span class="file">irure</span><span class="file">dolor</span><span class="file">If</span><span class="directory">You</span></div><div class="output-row"><span class="file">Are</span><span class="file">Reading</span><span class="directory">This</span><span class="directory">You</span><span class="directory">Are</span><span class="directory">Great</span></div></div>
+                        <div className="output-row"><span className="file">Automation</span><span className="directory">Curiosity</span><span className="directory">Travel</span><span className="directory">Adventure</span><span className="directory">Frontend</span><span className="directory">Backend</span></div><div className="output-row"><span className="file">API</span><span className="directory">Teamwork</span><span className="file">Cloud</span><span className="file">Javascript</span><span className="file">Python</span><span className="directory">IDE</span></div><div className="output-row"><span className="file">Relational</span><span className="file">NoSQL</span><span className="file">Learning</span><span className="directory">Always</span><span className="file">Frameworks</span><span className="directory">Music</span></div><div className="output-row"><span className="file">Photography</span><span className="directory">Cars</span><span className="file">Future</span><span className="directory">laboris</span><span className="file">commodo</span><span className="directory">consequat</span></div><div className="output-row"><span className="file">Duis</span><span className="file">aute</span><span className="file">irure</span><span className="file">dolor</span><span className="file">If</span><span className="directory">You</span></div><div className="output-row"><span className="file">Are</span><span className="file">Reading</span><span className="directory">This</span><span className="directory">You</span><span className="directory">Are</span><span className="directory">Great</span></div></div>
                 </div>
                 <br />
-                <div class="terminal-display">
-                    <div class="prompt">edwin@edwingon.com <span>$</span> </div>
-                    <div class="square"></div>
+                <div className="terminal-display">
+                    <div className="prompt">edwin@edwingon.com <span>$</span> </div>
+                    <div className="square"></div>
                 </div>
             </div>
             <div className="container-summary">
